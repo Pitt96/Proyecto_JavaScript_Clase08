@@ -114,7 +114,7 @@ function mostrarHtml(){
     let historial="";
     const aux=usuarios.find((avatar) => avatar.usuario == user);
     for(let i=0;i<aux.tipoOperacion.length;i++){
-        historial+="<tr><td>"+aux.tipoOperacion[i]+"</td><td>"+
+        historial+="<tr><td>"+aux.tipoOperacion[i]+"</td><td>S/."+
         aux.monto[i]+"</td><td>"+aux.fecha[i]+"</td><td><a href=''><i class='fa-solid fa-eye'></i>Ver</a></td></tr>";
     }
     nombre.innerHTML=user;
