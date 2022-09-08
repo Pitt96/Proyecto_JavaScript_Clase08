@@ -1,0 +1,111 @@
+.header_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+.btn {
+    /* Variables */
+   --button_radius: 0.75em;
+   --button_color: #e8e8e8;
+   --button_outline_color: #000000;
+   font-size: 17px;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--button_radius);
+   background: var(--button_outline_color);
+   cursor: pointer;
+  }
+  
+  .button_top {
+   display: block;
+   box-sizing: border-box;
+   border: 2px solid var(--button_outline_color);
+   border-radius: var(--button_radius);
+   padding: 0.75em 1.5em;
+   background: var(--button_color);
+   color: var(--button_outline_color);
+   transform: translateY(-0.2em);
+   transition: transform 0.1s ease;
+  }
+  
+  .btn:hover .button_top {
+    /* Pull the button upwards when hovered */
+   transform: translateY(-0.33em);
+  }
+  
+  .btn:active .button_top {
+    /* Push the button downwards when pressed */
+   transform: translateY(0);
+  }
+
+
+
+
+.main-content{
+    display: flex;
+    justify-content:center;
+}
+.opcion{
+    display: none; 
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.retiro form{
+    display: flex;
+    flex-direction: column;
+}
+.retiro form input{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.deposito form{
+    display: flex;
+    flex-direction: column;
+}
+.deposito form p{
+    font-size: 20px;
+}
+.deposito form input{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.transferencia form{
+    display: flex;
+    flex-direction: column;
+}
+
+.transferencia form input,.input{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse ;
+}
+th,tr{ 
+    padding: 0px 28px;
+    text-align: center;
+    margin: 0;
+}
+tbody tr td{
+    height: 100px;
+}
+thead{
+    border-bottom: 2px solid black ;
+}
+
+/* .transferencia{
+    display: initial;
+}
+.main-content{
+    justify-content: space-around;
+} */

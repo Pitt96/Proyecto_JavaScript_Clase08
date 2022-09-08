@@ -1,0 +1,31 @@
+main{
+    margin-top: 5%;
+}
+.container_registro{
+    
+    width: 500px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.container_registro h1{
+    text-align: center;
+    
+}
+.container_registro form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    width: 70%;
+    margin-left: 15%;
+    margin-top:20px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.btn{
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+}

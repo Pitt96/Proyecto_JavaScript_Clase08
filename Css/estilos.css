@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 1rem;
+}
+.fa-solid{
+    margin-right: 15px;
+}
+
+.login{
+    background-color: #F4C33D;
+    padding: 15px;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: #BB6A14;
+}
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.login a:hover{
+    font-weight: bolder;
+}
+
+.banner{
+    width: 85%;
+    margin: 0 auto;
+    height: 87.5vh;
+    background-image: url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-top: 180px;
+}
+
+.banner h1{
+    margin-bottom: 5px;
+    font-size: 55px;
+}
+
+.banner p:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.banner p:nth-child(3){
+    margin-bottom: 10px;
+}
+.banner a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: #3E75FF;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.agradecer{
+    margin-top: 50px;
+}
+

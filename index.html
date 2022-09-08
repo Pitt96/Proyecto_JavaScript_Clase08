@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="stylesheet" href="Css/plataforma.css">
+    <title>ATM</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href=""><img src="../image/wallet.png" alt=""></a>
+            <p>YARA</p>
+        </div>
+        <div class="login">
+            <a href="./registro.html"><i class="fa-solid fa-angles-left"></i>Cerrar Sesion</a>
+        </div>
+    </header>
+    <div class="header_2">
+        <div>
+            <h2>Hola <span id="s_user"></span>, Gracias por usar nuestro ATM YARA.</h2>
+            <span id="s_saldo"></span>
+        </div>
+        
+    </div>
+
+    <div class="main-content">
+        <div class="infoContent">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operacion</th>
+                        <th>Monto</th>
+                        <th>Fecha</th>
+                        <th>Detalle</th>
+                    </tr>
+                </thead>
+                <tbody class="historial" id="historial">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+        <script src="JS/atm.js"></script>
+</body>
+</html>
